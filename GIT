@@ -19,3 +19,26 @@ git commit -m  "Commit Message" : to make a commit (Moving file from staging to 
 git remote add origin GithubURL : to establish the connection between Local to remote repository
 
 git push origin branch_name     : to upload changes from local to rmeote repository (default branch name is  master)
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+-------------------
+Branching Commands
+-------------------
+
+git branch branch_name  : to create a branch in local (write your selected name in the place of branch_name)
+
+git checkout branch_name : to switch to the created branch 
+git switch branch_name   : to switch to the created branch
+
+git checkout -b branch_name : to create and switch branch at a time
+
+git push origin branch_name  : to upload changes to the created branch in remote repository
+
+git branch -d branch_name    : to delete the branch locally 
+git branch -D branch_name    : to delete the branch locally
+
+git push origin -d branch_name : to delete the branch remotely
+
+--------------------------------------------------------------------------------------------------------------------------------
+
