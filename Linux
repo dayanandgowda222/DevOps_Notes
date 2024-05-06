@@ -1,0 +1,14 @@
+===================================================================================================
+
+--------------
+Basic Commands
+--------------
+
+mkdir dir_name  : Make Directory ( to create a directory)
+
+cd dir_name     : Change Directory (to switch to the created directory)
+
+cd ..           : to switch back to the previous directory
+
+cd              : to switch back to the users home directory
+
