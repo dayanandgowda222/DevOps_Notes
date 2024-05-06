@@ -1,0 +1,21 @@
+---------------------------------
+Work Flow of GIT Commands
+---------------------------------
+
+git init : for initialize Empty folder (to track files )
+
+git config user.name "Your UserName" : to configure the user name 
+git config user.email "Your Email"   : to configure the user's email
+
+git config --global user.name "Your UserName"  : to configure the user name globally 
+git config --global user.name "Your UserName"  : to configure the user email globally
+
+git add filename : to add a particular file to staging area
+git add --all    : to add all files to staging area
+git add .        : to add all files to staging area
+
+git commit -m  "Commit Message" : to make a commit (Moving file from staging to Local repository/ Committed Area)
+
+git remote add origin GithubURL : to establish the connection between Local to remote repository
+
+git push origin branch_name     : to upload changes from local to rmeote repository (default branch name is  master)
