@@ -42,3 +42,15 @@ git push origin -d branch_name : to delete the branch remotely
 
 --------------------------------------------------------------------------------------------------------------------------------
 
+---------------
+Undoing Changes
+---------------
+
+git checkout filename   : to undo the changes made in working Direcrory (for particular file)
+git checkout .          : to undo the changes made in working Directory (for all the files)
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+
+git clone GithubURL     : to get all files from remote repository to local repository
+
