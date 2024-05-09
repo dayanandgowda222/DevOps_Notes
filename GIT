@@ -20,6 +20,11 @@ git remote add origin GithubURL : to establish the connection between Local to r
 
 git push origin branch_name     : to upload changes from local to rmeote repository (default branch name is  master)
 
+git status                      : shows the current status of your working directory and staging area
+
+git log                         : to get the history of commits
+git log --online                : to get the history of commits
+
 ---------------------------------------------------------------------------------------------------------------------------------
 
 -------------------

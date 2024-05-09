@@ -12,3 +12,6 @@ cd ..           : to switch back to the previous directory
 
 cd              : to switch back to the users home directory
 
+ls              : to list the files & directories
+
+
