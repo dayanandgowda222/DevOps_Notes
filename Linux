@@ -72,4 +72,29 @@ sudo su                     : to switch to root user
 getent passwd               : to display users list
 
 
+-----------------------------
+Group Management Commands
+-----------------------------
+
+groupadd groupname          : to create a group
+
+gpasswd groupname           : to set password for a group
+
+usermod -aG gname username  : to add users to the group
+
+gpasswd -d username gname   : to remove users from the group
+
+cat /etc/group              : list of groups and users
+
+getent group                : list of groups and users
+
+-----------------------------
+File Permissions Commands
+-----------------------------
+
+read(r)    - to see the content in a file
+write(w)   - to add conetnt
+execute(x) - to execute file
+
+ls -l           : to check the permissions of a file
 
