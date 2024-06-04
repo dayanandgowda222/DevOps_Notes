@@ -98,3 +98,17 @@ execute(x) - to execute file
 
 ls -l           : to check the permissions of a file
 
+chmod 777 filename  : all permissions for a file
+
+chmod u+x filename :  giving Execute permission to user
+chmod g+r filename :  giving Read permission to group
+
+-----------------------------
+File Compression Commands
+-----------------------------
+
+tar -cvf archive.tar files      : to create a tar file
+tar -xvf archive.tar            : to extract tar file
+
+
+
