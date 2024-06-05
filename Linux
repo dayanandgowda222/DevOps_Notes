@@ -109,6 +109,20 @@ File Compression Commands
 
 tar -cvf archive.tar files      : to create a tar file
 tar -xvf archive.tar            : to extract tar file
+zip name.zip files              : to create a zip file
+unzip name.zip                  : to extract the files
 
 
+
+
+-----------------------------
+Networking  Commands
+-----------------------------
+
+ifconfig                    : displays the information regarding the network
+ip address                  : displays the IP address
+ping domain_name            : tests the network connectivity
+dig domain_name             : shows IP related information
+nslookup domain_name        : to look up the ip address related to domain name 
+ 
 
