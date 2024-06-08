@@ -1,0 +1,15 @@
+----------------------------------------------------------
+----------------------------------------------------------
+
+1. Build an image from a Dockerfile
+ 
+ docker build -t image_name path_to_dockerfile
+
+ 2. List all Local images
+
+ docker images
+
+ 3. Pull an image from Docker Hub
+ 
+  docler pull image_name:tag
+
