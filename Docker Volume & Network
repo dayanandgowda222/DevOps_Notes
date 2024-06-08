@@ -26,3 +26,9 @@ docker volume rm volume_name
 ------------------------------------------------
 docker run --name container_name -v volume_name:path/in/container image_name:tag
 ------------------------------------------------
+
+6. Copy files between a container and a  volume
+------------------------------------------------
+docker cp local_file_or_directory container_name: /path/in/container
+------------------------------------------------
+
