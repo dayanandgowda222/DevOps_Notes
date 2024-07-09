@@ -82,6 +82,8 @@ gpasswd groupname           : to set password for a group
 
 usermod -aG gname username  : to add users to the group
 
+gpasswd -a username gname   :  to add users to the group
+
 gpasswd -d username gname   : to remove users from the group
 
 cat /etc/group              : list of groups and users
